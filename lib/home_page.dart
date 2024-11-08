@@ -135,6 +135,29 @@ class _HomePageState extends State<HomePage> {
               children: [
                 Expanded(
                   child: Text(
+                    'Bunga',
+                    style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: Text(
+                    '20 %',
+                    style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 30),
+            Row(
+              children: [
+                Expanded(
+                  child: Text(
                     'Jumlah Angsuran',
                     style: TextStyle(
                       fontSize: 16,
